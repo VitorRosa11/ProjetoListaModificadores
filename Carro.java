@@ -11,18 +11,18 @@ public class Carro {
     private String modelo;
     public int ano;
 
-    // Construtor padrão
+   
     public Carro() {
     }
 
-    // Construtor com parâmetros
+    
     public Carro(String marca, String modelo, int ano) {
         this.marca = marca;
         this.modelo = modelo;
-        setAno(ano); // Validação do ano
+        setAno(ano); 
     }
 
-    // Métodos Getters e Setters
+    
     public String getMarca() {
         return marca;
     }
@@ -44,14 +44,14 @@ public class Carro {
     }
 
     public void setAno(int ano) {
-        if (ano >= 1886) { // Valida se o ano é válido
+        if (ano >= 1886) { 
             this.ano = ano;
         } else {
             System.out.println("Erro: O ano do carro não pode ser menor que 1886!");
         }
     }
 
-    // Método para exibir informações do carro
+    
     public void exibirInformacoes() {
         System.out.println("Marca: " + marca);
         System.out.println("Modelo: " + modelo);

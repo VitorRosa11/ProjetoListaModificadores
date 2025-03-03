@@ -22,9 +22,9 @@ public class JavaEx10 {
 
         System.out.println();
 
-        // Testando ano inválido
+       
         Carro carro3 = new Carro("Fiat", "Uno", 1800);
-        carro3.exibirInformacoes(); // Não deve aceitar o ano 1800
+        carro3.exibirInformacoes(); 
     }
 }
 
